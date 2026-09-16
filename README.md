@@ -46,11 +46,14 @@ truncate -s 0 /var/lib/docker/containers/<id>/<id>-json.log # обнуляет �
 ```
 В докер-демоне можно настроить ротацию, что я делал в предыдущем задании с помощью templat'а, поэтому просто вставлю скрин templat'а + таски
 ```
-![[Pasted image 20260916183512.png]]
-![[Pasted image 20260916183525.png]]
+<img width="719" height="136" alt="image" src="https://github.com/user-attachments/assets/3db9350c-2ff5-4a64-ad2f-dc0774ba5fb6" />
+
+<img width="287" height="125" alt="image" src="https://github.com/user-attachments/assets/a511e373-b747-49c6-a2b8-2e254e6ce4a7" />
+
 
 ```
 Удаление побочного мусора  + вывод в log-file, тоже делал, вот скрин
 ```
 
-![[Pasted image 20260916182834.png]]
+<img width="549" height="157" alt="image" src="https://github.com/user-attachments/assets/dc775660-1908-45af-935d-927bfd928979" />
+
